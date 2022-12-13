@@ -67,11 +67,14 @@ public class ValidateNeoStoxAccBalance2 extends BaseNew
   UtilityNew.screenshot(driver, home.getActualUserName(driver));
   }
 
+  
   @AfterMethod
   public void logOutFromNeoStox()
   {
   home.logOut(driver);
   }
+  
+  
   @AfterClass
   public void closeBrowser()
   {
