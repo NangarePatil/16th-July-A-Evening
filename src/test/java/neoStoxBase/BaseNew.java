@@ -29,6 +29,9 @@ public class BaseNew
 		
 		neoStoxPOM.UtilityNew.wait(driver, 1000);
 		
+		
+		
+		
 	}
 	public static void closingBrowser(WebDriver driver) throws InterruptedException
 	{
