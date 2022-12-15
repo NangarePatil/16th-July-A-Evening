@@ -28,7 +28,7 @@ public class UtilityNew
 		Properties prop=new Properties();
 		
 		//create object of FileInputStream and pass properties file path as a parameter
-		FileInputStream myFile= new FileInputStream("C:\\Users\\Admin\\eclipse-workspace\\Velocity_W5_Group\\NeoStox.properties");
+		FileInputStream myFile= new FileInputStream("C:\\Users\\Admin\\git\\16th-July-A-evening\\Velocity_W5_Group\\NeoStox.properties");
 		
 		prop.load(myFile);
 		String value = prop.getProperty(key);
