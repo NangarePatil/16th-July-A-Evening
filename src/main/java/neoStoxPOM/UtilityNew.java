@@ -15,7 +15,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.io.FileHandler;
-import org.testng.Reporter;
+
 
 public class UtilityNew 
 {
@@ -32,7 +32,7 @@ public class UtilityNew
 		
 		prop.load(myFile);
 		String value = prop.getProperty(key);
-		Reporter.log("Reading"+key+"from property file",true);
+		//Reporter.log("Reading"+key+"from property file",true);
 		return value;
         
 		
@@ -48,7 +48,7 @@ public class UtilityNew
 		
 		FileHandler.copy(src, dest);
 
-		Reporter.log("taking screenshot",true);		
+		//Reporter.log("taking screenshot",true);		
 	}
 
 	public static void scrollIntoView(WebDriver driver,WebElement element)
@@ -58,13 +58,13 @@ public class UtilityNew
 		
 		js.executeScript("arguments[0].scrollIntoView(true)", element);
 		
-		Reporter.log("Scrolling into view"+element.getText(),true);
+		//Reporter.log("Scrolling into view"+element.getText(),true);
 	}
 	
 	public static void wait(WebDriver driver, int waitTime) 
 	{
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(waitTime));
-		Reporter.log("waiting for"+waitTime+"ms",true);
+		//Reporter.log("waiting for"+waitTime+"ms",true);
 	}
 
 	

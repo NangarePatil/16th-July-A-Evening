@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Reporter;
+
 
 
 
@@ -25,14 +25,14 @@ public class NeoStoxLoginPage
 	{
 	UtilityNew.wait(driver, 1000);
 	mobileNumField.sendKeys(mobNum);
-	Reporter.log("Entering mobileNumber",true);
+	//Reporter.log("Entering mobileNumber",true);
 	}
 	
 	public void clickOnSignInButton(WebDriver driver)
 	{
 	UtilityNew.wait(driver, 1000);
 	signInButton.click();
-	Reporter.log("Clicking on SignIN Button",true);
+	//Reporter.log("Clicking on SignIN Button",true);
 	}
 	
 	

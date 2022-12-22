@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
-import org.testng.Reporter;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -50,7 +50,7 @@ public class ValidateNeoStoxAccBalance2 extends BaseNew
 	password.enterPassword(driver, UtilityNew.readDataFrompropertyFile("Passcode"));
 	Thread.sleep(1000);
 	password.clickOnSubmitButton(driver);
-	Thread.sleep(1000);
+	Thread.sleep(5000);
 	home.handlePopUp(driver);
 	}
   @Test
@@ -69,8 +69,9 @@ public class ValidateNeoStoxAccBalance2 extends BaseNew
 
   
   @AfterMethod
-  public void logOutFromNeoStox()
+  public void logOutFromNeoStox() throws InterruptedException
   {
+	  Thread.sleep(5000);
   home.logOut(driver);
   }
   
@@ -78,7 +79,7 @@ public class ValidateNeoStoxAccBalance2 extends BaseNew
   @AfterClass
   public void closeBrowser()
   {
-  Reporter.log("closing browser", true);
+  //Reporter.log("closing browser", true);
   driver.close();
   }
 }

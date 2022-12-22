@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Reporter;
+
 
 import neoStoxPOM.UtilityNew;
 
@@ -25,7 +25,7 @@ public class BaseNew
 		
 		driver.get(UtilityNew.readDataFrompropertyFile("url"));
 		
-		Reporter.log("Launching Browser",true);
+		//Reporter.log("Launching Browser",true);
 		
 		neoStoxPOM.UtilityNew.wait(driver, 1000);
 		
@@ -33,7 +33,7 @@ public class BaseNew
 	}
 	public static void closingBrowser(WebDriver driver) throws InterruptedException
 	{
-	Reporter.log("closing browser", true);
+	//Reporter.log("closing browser", true);
 	Thread.sleep(500);
 	driver.close();
 	}

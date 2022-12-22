@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-22T18:03:50 IST" name="Suite" finished-at="2022-12-22T18:04:42 IST" duration-ms="51390">
+    <groups>
+    </groups>
+    <test started-at="2022-12-22T18:03:50 IST" name="Test" finished-at="2022-12-22T18:04:42 IST" duration-ms="51390">
+      <class name="neoStoxTest.ValidateNeoStoxAccBalance2">
+        <test-method is-config="true" signature="launchNeoStox()[pri:0, instance:neoStoxTest.ValidateNeoStoxAccBalance2@2794eab6]" started-at="2022-12-22T18:03:51 IST" name="launchNeoStox" finished-at="2022-12-22T18:04:00 IST" duration-ms="9498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchNeoStox -->
+        <test-method is-config="true" signature="logintoNeoStox()[pri:0, instance:neoStoxTest.ValidateNeoStoxAccBalance2@2794eab6]" started-at="2022-12-22T18:04:00 IST" name="logintoNeoStox" finished-at="2022-12-22T18:04:16 IST" duration-ms="16230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoNeoStox -->
+        <test-method signature="validateUserID()[pri:-1, instance:neoStoxTest.ValidateNeoStoxAccBalance2@2794eab6]" started-at="2022-12-22T18:04:16 IST" name="validateUserID" finished-at="2022-12-22T18:04:17 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserID -->
+        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:neoStoxTest.ValidateNeoStoxAccBalance2@2794eab6]" started-at="2022-12-22T18:04:17 IST" name="logOutFromNeoStox" finished-at="2022-12-22T18:04:22 IST" duration-ms="5300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromNeoStox -->
+        <test-method is-config="true" signature="logintoNeoStox()[pri:0, instance:neoStoxTest.ValidateNeoStoxAccBalance2@2794eab6]" started-at="2022-12-22T18:04:22 IST" name="logintoNeoStox" finished-at="2022-12-22T18:04:35 IST" duration-ms="13209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoNeoStox -->
+        <test-method signature="validateAccBalance()[pri:0, instance:neoStoxTest.ValidateNeoStoxAccBalance2@2794eab6]" started-at="2022-12-22T18:04:35 IST" name="validateAccBalance" finished-at="2022-12-22T18:04:36 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAccBalance -->
+        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:neoStoxTest.ValidateNeoStoxAccBalance2@2794eab6]" started-at="2022-12-22T18:04:36 IST" name="logOutFromNeoStox" finished-at="2022-12-22T18:04:41 IST" duration-ms="5456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromNeoStox -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:neoStoxTest.ValidateNeoStoxAccBalance2@2794eab6]" started-at="2022-12-22T18:04:41 IST" name="closeBrowser" finished-at="2022-12-22T18:04:42 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- neoStoxTest.ValidateNeoStoxAccBalance2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
